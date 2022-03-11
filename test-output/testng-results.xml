@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Google Chrome Driver version for this test]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30197" started-at="2022-03-10T22:09:37 IST" finished-at="2022-03-10T22:10:07 IST">
+    <groups>
+    </groups>
+    <test name="check" duration-ms="30197" started-at="2022-03-10T22:09:37 IST" finished-at="2022-03-10T22:10:07 IST">
+      <class name="testcases.LoginTestCase">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="StartBrowser" is-config="true" duration-ms="11055" started-at="2022-03-10T22:09:37 IST" finished-at="2022-03-10T22:09:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Google Chrome Driver version for this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="HomePageVerify()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="HomePageVerify" duration-ms="35" started-at="2022-03-10T22:09:48 IST" finished-at="2022-03-10T22:09:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageVerify -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="19" started-at="2022-03-10T22:09:48 IST" finished-at="2022-03-10T22:09:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageVerify status=SUCCESS method=LoginTestCase.HomePageVerify()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="Moneymap()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="Moneymap" duration-ms="2815" started-at="2022-03-10T22:09:48 IST" finished-at="2022-03-10T22:09:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Moneymap -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-03-10T22:09:51 IST" finished-at="2022-03-10T22:09:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Moneymap status=SUCCESS method=LoginTestCase.Moneymap()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="verifyAccountAcctivity()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="verifyAccountAcctivity" duration-ms="5055" started-at="2022-03-10T22:09:51 IST" finished-at="2022-03-10T22:09:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountAcctivity -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-03-10T22:09:56 IST" finished-at="2022-03-10T22:09:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccountAcctivity status=SUCCESS method=LoginTestCase.verifyAccountAcctivity()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="FAIL" signature="verifyMoneyMap()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="verifyMoneyMap" duration-ms="54" started-at="2022-03-10T22:09:56 IST" finished-at="2022-03-10T22:09:56 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testcases.LoginTestCase.verifyMoneyMap(LoginTestCase.java:123)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoneyMap -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="352" started-at="2022-03-10T22:09:56 IST" finished-at="2022-03-10T22:09:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMoneyMap status=FAILURE method=LoginTestCase.verifyMoneyMap()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="verifycategoryonVerifyMoneyMap()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="verifycategoryonVerifyMoneyMap" duration-ms="917" started-at="2022-03-10T22:09:57 IST" finished-at="2022-03-10T22:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycategoryonVerifyMoneyMap -->
+        <test-method status="PASS" signature="verifydeposittotal()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="verifydeposittotal" duration-ms="3131" started-at="2022-03-10T22:09:58 IST" finished-at="2022-03-10T22:10:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydeposittotal -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-03-10T22:09:58 IST" finished-at="2022-03-10T22:09:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycategoryonVerifyMoneyMap status=SUCCESS method=LoginTestCase.verifycategoryonVerifyMoneyMap()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-03-10T22:10:01 IST" finished-at="2022-03-10T22:10:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydeposittotal status=SUCCESS method=LoginTestCase.verifydeposittotal()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="verifyspendingtotal()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="verifyspendingtotal" duration-ms="3064" started-at="2022-03-10T22:10:01 IST" finished-at="2022-03-10T22:10:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyspendingtotal -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-03-10T22:10:04 IST" finished-at="2022-03-10T22:10:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyspendingtotal status=SUCCESS method=LoginTestCase.verifyspendingtotal()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="whatslefttotall()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="whatslefttotall" duration-ms="3110" started-at="2022-03-10T22:10:04 IST" finished-at="2022-03-10T22:10:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatslefttotall -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-03-10T22:10:07 IST" finished-at="2022-03-10T22:10:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whatslefttotall status=SUCCESS method=LoginTestCase.whatslefttotall()[pri:0, instance:testcases.LoginTestCase@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestCase@525f1e4e]" name="afterTest" is-config="true" duration-ms="535" started-at="2022-03-10T22:10:07 IST" finished-at="2022-03-10T22:10:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.LoginTestCase -->
+    </test> <!-- check -->
+  </suite> <!-- Suite -->
+</testng-results>
